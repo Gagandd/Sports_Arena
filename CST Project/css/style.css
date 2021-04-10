@@ -1,0 +1,175 @@
+/* resetting browser stuff */
+*     {
+  box-sizing: border-box;
+}
+html,body   {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+/* styling our overall page */
+body     {
+  background: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styling our header */
+header   {
+  background: #326295;
+  color: #FFF;
+  padding: 4px 20px;
+}
+
+/* logo */
+.fifalogo{
+  font-size: 1.6em;
+}
+#logo         {
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  width: 49%;
+}
+
+#logo span   {
+  display: inline-block;
+}
+
+/* main navigation */
+nav     {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+nav ul   {
+  list-style: none;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a    {
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+}
+nav ul li a:hover   {
+  background: #444;
+}
+
+/* styling our footer */
+footer   {
+  background: #222;
+  color: #777;
+  padding: 40px;
+  text-align: center;
+}
+footer img   {
+  display: block;
+  border-radius: 5px;
+  width: 80px;
+  margin: 0 auto 10px;
+}
+
+/* styling our main content */
+.hero           {
+  min-height: 800px;
+  text-align: center;
+  background-image: url('../img/stadium.jpg');
+  background-size: cover;
+}
+.hero-content   {
+  color: #FFF;
+  padding-top: 130px;
+}
+.hero-content h1   {
+  font-size: 100px;
+  margin: 0;
+}
+.hero-content p    {
+  font-size: 50px;
+}
+.hero-content a    {
+  display: inline-block;
+  color: #FFF;
+  border: 3px solid #FFF;
+  border-radius: 3px;
+  padding: 15px 30px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+
+
+#column1 {
+  float: left;
+  width: 290px;
+  margin-right: 30px;
+}
+
+#column2 {
+  float: left;
+  width: 280px;
+}
+
+#column3 {
+  float: right;
+  width: 260px;
+}
+
+
+#featured-content {
+  overflow: hidden;
+  width: 1000px;
+  margin: 0px auto;
+  padding: 30px 0px;
+  border-bottom: 5px solid #E9EAEE; 
+}
+
+#featured-content h2 {
+  padding: 0px 0px 20px 0px;
+  font-size: 30px;
+}
+
+#featured-content #column1 {
+  float: left;
+  width: 300px;
+  margin-right: 50px;
+}
+
+#featured-content #column2 {
+  float: left;
+  width: 300px;
+}
+
+#featured-content #column3 {
+  float: right;
+  width: 300px;
+}
+
+.button a {
+  display: block;
+  float: left;
+  width: 100px;
+  padding: 5px 5px;
+  margin-right: 10px;
+  background: #132434;
+  border-radius: 5px;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+
+
+.client-view {
+  max-width: 400px;
+  margin: 0 auto;
+}
